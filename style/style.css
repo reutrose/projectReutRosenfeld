@@ -160,7 +160,7 @@ body {
 /* Project Page */
 .imgSection {
     width: 100vw;
-    height: 600px;
+    height: auto;
     background-color: #FFE4E1;
     display: flex;
     align-items: center;
@@ -168,10 +168,11 @@ body {
 }
 
 .imgSection img {
-    width: 960px;
-    height: 540px;
+    width: 60vw;
+    height: auto;
     box-shadow: 0 8px 16px 8px rgba(0, 0, 0, 0.2);
     border-radius: 8px;
+    margin: 50px;
 
 }
 
@@ -179,11 +180,13 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: start;
-    width: 40%;
 }
 
 .projectButtons button {
     margin-right: 15px;
+    width: auto;
+    height: auto;
+    padding: 5px;
 }
 
 /* About */
